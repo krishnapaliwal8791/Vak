@@ -1,0 +1,96 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+*.pyd
+
+# Distribution / packaging
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+# Keep packaging/vak.spec tracked; ignore pyinstaller build outputs
+*.manifest
+*.spec.bak
+
+# Unit test / coverage reports
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# Runtime logs and log backups
+*.log
+*.log.*
+logs/
+
+# Temporary audio recordings and cache
+*.wav
+*.mp3
+*.ogg
+*.flac
+*.pcm
+temp_audio/
+
+# Windows OS generated files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Local runtime data and sensitive configurations
+# Note: config.example.toml is tracked as template
+config.toml
+history.json
+*.env
+.env.*
+
+# Project-specific ignored documentation
+# Explicitly ignored per repository requirements
+docs/
+*NaamKaran.pdf
+*.pdf
